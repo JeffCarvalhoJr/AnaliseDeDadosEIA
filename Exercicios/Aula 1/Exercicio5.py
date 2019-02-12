@@ -1,3 +1,6 @@
+#Escreva uma função chamada middle que receba uma lista e retorne uma nova lista com todos os elementos originais,
+# exceto os primeiros e o ultimso elemento
+
 from random import randint
 
 listainicial = []

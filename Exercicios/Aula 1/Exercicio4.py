@@ -1,3 +1,5 @@
+#Faça um programa que dada as quatro notas de X aluno(s), imprima o numero de alunos com média maior ou igual a 7
+
 from random import randint
 
 numeroDeAlunos = int(input())
@@ -16,7 +18,7 @@ for i in range(numeroDeAlunos):
     print("Notas aluno " + str(i) + ": " + str(listaAlunos[i]))
     print("Media aluno " + str(i) + ": " + str(listaMedias[i] / 4))
 
-    if((listaMedias[i] / 4) > 7):
+    if((listaMedias[i] / 4) >= 7):
         count += 1
 
 print("Numero de alunos com media maior que 7: " + str(count))

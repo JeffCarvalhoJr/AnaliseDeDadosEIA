@@ -1,3 +1,5 @@
+#Faça um programa que leia um vetor de 10 numeros e mostre-os na ordem inversa.
+
 from random import randint
 
 listainicial = []
